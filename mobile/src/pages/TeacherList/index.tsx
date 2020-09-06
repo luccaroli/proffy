@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { View, ScrollView, Text, KeyboardAvoidingView, Platform, DatePickerIOS } from 'react-native'
+import { View, ScrollView, Text, KeyboardAvoidingView, Platform } from 'react-native'
 import { BorderlessButton, RectButton } from 'react-native-gesture-handler'
 import { Feather } from '@expo/vector-icons'
 import AsyncStorage from '@react-native-community/async-storage'
