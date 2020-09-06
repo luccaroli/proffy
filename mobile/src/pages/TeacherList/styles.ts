@@ -11,12 +11,13 @@ const styles = StyleSheet.create({
   },
 
   searchForm: {
-    marginBottom: 24
+    marginBottom: 16,
   },
 
   label: {
     color: '#d4c2ff',
     fontFamily: 'Poppins_400Regular',
+    marginBottom: 4
   },
 
   inputGroup: {
@@ -25,7 +26,14 @@ const styles = StyleSheet.create({
   },
 
   inputBlock: {
-    width: '48%'
+    width: '48%',
+    height: 54,
+    backgroundColor: '#fff',
+    borderRadius: 8,
+    justifyContent: 'center',
+    paddingHorizontal: 16,
+    marginTop: 4,
+    marginBottom: 8
   },
 
   input: {
@@ -37,6 +45,28 @@ const styles = StyleSheet.create({
     marginTop: 4,
     marginBottom: 8
   },
+
+  pickerSelectStyles: {
+    backgroundColor: '#FFF',
+    height: 54,
+    borderRadius: 8,
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    marginBottom: 6,
+    
+  },
+
+
+	inputSelect: {
+		height: 54,
+		backgroundColor: '#FFF',
+		borderRadius: 8,
+    justifyContent: 'center',
+		paddingLeft:3,
+		marginTop: 4,
+		marginBottom: 16,
+	},
 
   submitButton: {
     backgroundColor: '#04d361',
