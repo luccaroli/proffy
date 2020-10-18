@@ -5,6 +5,7 @@ import { Archivo_400Regular, Archivo_700Bold, useFonts } from '@expo-google-font
 import { Poppins_400Regular, Poppins_600SemiBold } from '@expo-google-fonts/poppins'
 import AppStack from './src/routes/AppStack';
 
+
 export default function App() {
   let [fontsLoaded] = useFonts({
     Archivo_400Regular,
@@ -19,7 +20,7 @@ export default function App() {
     return (
       <>
         <AppStack />
-        <StatusBar style="light" />
+        <StatusBar style="dark" />
       </>
     );
   }
