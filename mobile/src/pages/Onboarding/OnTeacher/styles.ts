@@ -3,64 +3,61 @@ import { StyleSheet } from 'react-native'
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column',
-    backgroundColor: '#f5f5f5',
-    alignItems: "center",
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+  },
+
+  header: {
+    flex: 1,
+    position: 'relative',
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#04D361',
+    width: '100%',
+    height: '48%'
+  },
+
+  background: {
+    resizeMode: 'contain',
+    transform: [{ rotate: '-90deg' }],
+    opacity: 0.5,
+    tintColor: '#fff'
+  },
+  icon: {
+    position: 'absolute',
+    width: 120,
+    height: 120,
   },
   
-  box: {
-    top: -10,
-    width: 375,
-    height: 350,
-    backgroundColor: '#04D361'
+  textContainer: {
+    alignItems: 'flex-start',
+    padding: 40,
+    marginBottom: 20,
+    marginTop: 40
+  },
+  
+  title: {
+    fontFamily: 'Poppins_600SemiBold',
+    fontSize: 40,
+    lineHeight: 44,
+    color: '#6A6180',
+    opacity: 0.3,
+    
   },
 
-  iconContainer: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: 'center',
-    transform: [{ rotate: '90deg' }],
-  },
-
-  teacherIcon: {
-    width: 130,
-    height: 120,
-    padding: 16,
-    transform: [{ rotate: '-90deg' }]
-  },
-
-  boxGray: {
-    width: "100%",
-    height: "100%",
-  },
- 
-  textOne: {
-   left: 46,
-   top: 50,
-   fontFamily: 'Poppins_400Regular',
-   fontStyle: 'normal',
-   fontSize: 40,
-   lineHeight: 44,
-   color: '#6A6180',
-   opacity: 0.16,
-  },
-
-  textTwo: {
-    top: 60,
-    left: 40,
-    fontFamily: 'Poppins_400Regular',
-    fontStyle: 'normal',
+  description: {
+    marginTop: 12,
+    fontFamily: 'Poppins_600SemiBold',
     fontSize: 24,
-    lineHeight: 34,
-    color: '#6A6180'
+    color: '#6A6180',
   },
 
-  nextIcon: {
-    right: 10,
-    alignItems: 'flex-end',
-    top: 90
-  }
+  footer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    padding: 20
+    
+  },
 
 })
 
